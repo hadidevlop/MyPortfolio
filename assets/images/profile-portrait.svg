@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="820" viewBox="0 0 640 820">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141723" />
+      <stop offset="100%" stop-color="#0f1016" />
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#8d7bff" stop-opacity="0.7" />
+      <stop offset="60%" stop-color="#8d7bff" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#0f1016" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="contour" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8d7bff" />
+      <stop offset="100%" stop-color="#74f0c0" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="820" rx="48" fill="url(#bg)" />
+  <circle cx="320" cy="220" r="260" fill="url(#halo)" />
+  <path d="M320 220c82 0 148 66 148 148v32c0 120-98 218-218 218h-18c-34 0-62 28-62 62v60" fill="none" stroke="url(#contour)" stroke-width="18" stroke-linecap="round" />
+  <path d="M212 318c18-64 70-110 132-110s114 46 132 110" fill="none" stroke="#f2f6fb" stroke-opacity="0.4" stroke-width="8" stroke-linecap="round" />
+  <path d="M240 352c18-32 48-52 80-52s62 20 80 52" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="6" stroke-linecap="round" />
+  <circle cx="240" cy="288" r="12" fill="#f2f6fb" opacity="0.8" />
+  <circle cx="400" cy="288" r="12" fill="#f2f6fb" opacity="0.6" />
+  <path d="M220 590c40 26 92 42 148 42 56 0 108-16 148-42" fill="none" stroke="url(#contour)" stroke-opacity="0.5" stroke-width="12" stroke-linecap="round" />
+</svg>

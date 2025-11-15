@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720">
+  <defs>
+    <linearGradient id="synthesis-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141626" />
+      <stop offset="100%" stop-color="#0c0f1a" />
+    </linearGradient>
+    <linearGradient id="synthesis-grid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8d7bff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#74f0c0" stop-opacity="0.25" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" rx="32" fill="url(#synthesis-bg)" />
+  <g stroke="url(#synthesis-grid)" stroke-width="1.5" opacity="0.6">
+    <path d="M120 160h720" />
+    <path d="M120 220h720" />
+    <path d="M120 280h720" />
+    <path d="M120 340h720" />
+    <path d="M120 400h720" />
+    <path d="M120 460h720" />
+    <path d="M120 520h720" />
+    <path d="M220 120v520" />
+    <path d="M320 120v520" />
+    <path d="M420 120v520" />
+    <path d="M520 120v520" />
+    <path d="M620 120v520" />
+    <path d="M720 120v520" />
+    <path d="M820 120v520" />
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M220 520l140-260 140 180 140-220 140 200" stroke="#8d7bff" stroke-width="10" opacity="0.5" />
+    <path d="M220 560l140-160 140 120 140-160 140 140" stroke="#74f0c0" stroke-width="8" opacity="0.35" />
+  </g>
+  <g transform="translate(280 220)">
+    <rect width="400" height="240" rx="32" fill="rgba(8, 10, 20, 0.7)" stroke="rgba(141,123,255,0.4)" stroke-width="2" />
+    <path d="M80 80h240" stroke="#f2f6fb" stroke-opacity="0.4" stroke-width="6" />
+    <path d="M80 140h280" stroke="#8d7bff" stroke-width="6" opacity="0.6" />
+    <path d="M80 180h220" stroke="#74f0c0" stroke-width="6" opacity="0.5" />
+  </g>
+</svg>
