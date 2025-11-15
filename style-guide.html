@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hadi Creative style guide and UI toolkit.">
+  <title>Hadi — Style Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/style-guide.css">
+</head>
+<body>
+  <header class="style-guide__header">
+    <div class="container">
+      <h1>Hadi Creative — Brand System</h1>
+      <p>This guide documents the visual language, typography, color system, and UI components supporting the Hadi portfolio.</p>
+      <a class="btn btn--ghost" href="index.html">Back to experience</a>
+    </div>
+  </header>
+  <main class="style-guide" id="top">
+    <section class="style-guide__section" id="brand">
+      <div class="container">
+        <h2>Brand DNA</h2>
+        <div class="style-guide__grid">
+          <div>
+            <h3>Values</h3>
+            <ul>
+              <li>Imaginative craft</li>
+              <li>Sensorial storytelling</li>
+              <li>Strategic partnership</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Voice &amp; Tone</h3>
+            <p>Confident, premium, and human. Messages are concise, purposeful, and invitational — celebrating innovation while staying approachable.</p>
+          </div>
+          <div>
+            <h3>Logo</h3>
+            <div class="logo-sample">
+              <span class="logo__mark" aria-hidden="true">H</span>
+              <span class="logo__wordmark">Hadi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="style-guide__section" id="colors">
+      <div class="container">
+        <h2>Color Palette</h2>
+        <div class="color-swatches" role="list">
+          <div class="color-swatch" role="listitem">
+            <span class="color-swatch__chip" style="--swatch:#0f1016"></span>
+            <p class="color-swatch__name">Nocturne</p>
+            <p class="color-swatch__value">#0F1016</p>
+          </div>
+          <div class="color-swatch" role="listitem">
+            <span class="color-swatch__chip" style="--swatch:#151823"></span>
+            <p class="color-swatch__name">Ultrachrome</p>
+            <p class="color-swatch__value">#151823</p>
+          </div>
+          <div class="color-swatch" role="listitem">
+            <span class="color-swatch__chip" style="--swatch:#f2f6fb"></span>
+            <p class="color-swatch__name">Diffused Light</p>
+            <p class="color-swatch__value">#F2F6FB</p>
+          </div>
+          <div class="color-swatch" role="listitem">
+            <span class="color-swatch__chip" style="--swatch:#e0d7ff"></span>
+            <p class="color-swatch__name">Luminous Mist</p>
+            <p class="color-swatch__value">#E0D7FF</p>
+          </div>
+          <div class="color-swatch" role="listitem">
+            <span class="color-swatch__chip" style="--swatch:#8d7bff"></span>
+            <p class="color-swatch__name">Iridescent Violet</p>
+            <p class="color-swatch__value">#8D7BFF</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="style-guide__section" id="typography">
+      <div class="container">
+        <h2>Typography</h2>
+        <div class="type-scale">
+          <div>
+            <p class="type-label">Display / H1</p>
+            <p class="type-sample type-sample--display">Designing sensorial digital worlds.</p>
+          </div>
+          <div>
+            <p class="type-label">Heading / H2</p>
+            <p class="type-sample type-sample--h2">Craft with imagination &amp; strategy.</p>
+          </div>
+          <div>
+            <p class="type-label">Heading / H3</p>
+            <p class="type-sample type-sample--h3">Immersive installations</p>
+          </div>
+          <div>
+            <p class="type-label">Body</p>
+            <p class="type-sample type-sample--body">We pair human insight with emerging technologies to choreograph memorable brand touchpoints.</p>
+          </div>
+          <div>
+            <p class="type-label">Eyebrow</p>
+            <p class="type-sample type-sample--eyebrow">Selected Work</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="style-guide__section" id="spacing">
+      <div class="container">
+        <h2>Spacing &amp; Layout</h2>
+        <p>The spacing system is based on an 8px scale with larger leaps for immersive sections:</p>
+        <ul class="spacing-list">
+          <li>Extra tight: 4px</li>
+          <li>Tight: 8px</li>
+          <li>Base: 16px</li>
+          <li>Comfortable: 24px</li>
+          <li>Generous: 32px</li>
+          <li>Hero rhythm: 64px</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="style-guide__section" id="components">
+      <div class="container">
+        <h2>UI Components</h2>
+        <div class="component-gallery">
+          <div class="component-gallery__item">
+            <p class="type-label">Buttons</p>
+            <div class="component-gallery__buttons">
+              <a class="btn btn--primary" href="#">Primary CTA</a>
+              <a class="btn btn--ghost" href="#">Ghost CTA</a>
+              <button class="btn btn--text" type="button">Text Button</button>
+            </div>
+          </div>
+          <div class="component-gallery__item">
+            <p class="type-label">Form Inputs</p>
+            <form class="component-gallery__form" action="#" method="post">
+              <label for="sample-name">Name</label>
+              <input id="sample-name" type="text" placeholder="Your name">
+              <label for="sample-email">Email</label>
+              <input id="sample-email" type="email" placeholder="name@email.com">
+              <label for="sample-message">Message</label>
+              <textarea id="sample-message" rows="3" placeholder="Share the vision"></textarea>
+            </form>
+          </div>
+          <div class="component-gallery__item">
+            <p class="type-label">Cards</p>
+            <div class="component-gallery__cards">
+              <article class="service-card">
+                <div class="service-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 64 64">
+                    <defs>
+                      <linearGradient id="icon-sample" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#8d7bff" />
+                        <stop offset="100%" stop-color="#74f0c0" />
+                      </linearGradient>
+                    </defs>
+                    <path d="M18 20h28v28H18z" fill="none" stroke="url(#icon-sample)" stroke-width="4" stroke-linejoin="round" />
+                    <circle cx="32" cy="34" r="6" fill="#f2f6fb" opacity="0.4" />
+                  </svg>
+                </div>
+                <h3>Experience Strategy</h3>
+                <p>Align brand, product, and culture with multi-sensory journeys.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="style-guide__footer">
+    <div class="container">
+      <p>© <span data-year></span> Hadi Creative. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

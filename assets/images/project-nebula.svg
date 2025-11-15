@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720">
+  <defs>
+    <linearGradient id="nebula-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#100f20" />
+      <stop offset="100%" stop-color="#070712" />
+    </linearGradient>
+    <radialGradient id="nebula-glow" cx="60%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8d7bff" stop-opacity="0.65" />
+      <stop offset="70%" stop-color="#8d7bff" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#070712" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="nebula-beam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#74f0c0" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#8d7bff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" rx="32" fill="url(#nebula-bg)" />
+  <ellipse cx="560" cy="360" rx="320" ry="240" fill="url(#nebula-glow)" />
+  <g fill="none" stroke-linecap="round">
+    <path d="M180 520c120-140 320-220 540-180" stroke="#8d7bff" stroke-opacity="0.32" stroke-width="18" />
+    <path d="M220 560c150-110 360-130 520-40" stroke="#74f0c0" stroke-opacity="0.28" stroke-width="14" />
+  </g>
+  <g transform="translate(260 160)">
+    <path d="M220 0l120 320h-240z" fill="url(#nebula-beam)" opacity="0.8" />
+    <circle cx="220" cy="160" r="120" fill="rgba(8, 10, 20, 0.7)" stroke="rgba(141,123,255,0.5)" stroke-width="12" />
+    <circle cx="220" cy="160" r="56" fill="rgba(141,123,255,0.4)" stroke="#f2f6fb" stroke-opacity="0.3" stroke-width="8" />
+    <path d="M160 160h120" stroke="#74f0c0" stroke-width="8" opacity="0.6" />
+    <path d="M220 100v120" stroke="#8d7bff" stroke-width="8" opacity="0.6" />
+  </g>
+</svg>

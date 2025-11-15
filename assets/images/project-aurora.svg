@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720">
+  <defs>
+    <linearGradient id="aurora-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16192b" />
+      <stop offset="100%" stop-color="#0d101c" />
+    </linearGradient>
+    <radialGradient id="aurora-glow" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#8d7bff" stop-opacity="0.6" />
+      <stop offset="60%" stop-color="#8d7bff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0d101c" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="aurora-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#20263d" />
+      <stop offset="100%" stop-color="#1a1f32" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" rx="32" fill="url(#aurora-bg)" />
+  <circle cx="680" cy="220" r="300" fill="url(#aurora-glow)" />
+  <g transform="translate(180 160)" fill="none" stroke-linecap="round">
+    <rect width="320" height="420" rx="28" fill="url(#aurora-card)" stroke="rgba(141,123,255,0.3)" stroke-width="2" />
+    <rect x="360" y="60" width="220" height="320" rx="24" fill="url(#aurora-card)" stroke="rgba(116,240,192,0.35)" stroke-width="2" />
+    <path d="M52 120h216" stroke="#8d7bff" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+    <path d="M52 168h216" stroke="#f2f6fb" stroke-width="4" opacity="0.4" />
+    <circle cx="470" cy="220" r="84" fill="rgba(141,123,255,0.3)" stroke="#8d7bff" stroke-opacity="0.4" stroke-width="8" />
+    <path d="M440 320h60" stroke="#74f0c0" stroke-width="6" opacity="0.6" />
+    <path d="M440 140h60" stroke="#f2f6fb" stroke-width="6" opacity="0.35" />
+  </g>
+</svg>
